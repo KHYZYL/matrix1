@@ -234,10 +234,10 @@ ul {
 
 .section-title__title {
     margin: 0;
-    color: var(--eventflow-white);
+    color: #7FFF00;
     font-size: 48px;
     line-height: 55px;
-    font-weight: 700;
+    font-weight: 200;
     text-transform: capitalize;
 }
 
@@ -1398,7 +1398,7 @@ ul {
 }
 
 .main-menu-three .main-menu__wrapper-inner:before {
-    background-color: rgba(var#8B0000, .05);
+    background-color: rgba(var(--eventflow-white-rgb), .05);
 }
 
 /*--------------------------------------------------------------
@@ -2556,6 +2556,7 @@ ul {
     font-family: var(--eventflow-font-two);
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    z-index: -1;
 }
 
 .sliding-text__title img {
@@ -10400,9 +10401,11 @@ ul {
   color: #fff;
   padding: 20px;
   border-radius: 12px;
-  max-width: 420px;
+  max-width: 1500px;
   width: 90%;
   position: relative;
+  margin-top: 100px;
+  z-index: 1000;
 }
 
 .popup-close {
@@ -10411,4 +10414,9 @@ ul {
   right: 14px;
   font-size: 24px;
   cursor: pointer;
+}
+
+.section-title__title .white-text {
+color: #ffffff;
+font-weight: bold;
 }
