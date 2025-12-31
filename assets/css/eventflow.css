@@ -1176,7 +1176,7 @@ ul {
     justify-content: space-between;
     line-height: 30px;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 20px;
     font-family: var(--eventflow-font);
     font-weight: 500;
     height: 46px;
@@ -1398,7 +1398,7 @@ ul {
 }
 
 .main-menu-three .main-menu__wrapper-inner:before {
-    background-color: rgba(var(--eventflow-white-rgb), .05);
+    background-color: rgba(var#8B0000, .05);
 }
 
 /*--------------------------------------------------------------
