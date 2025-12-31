@@ -10406,6 +10406,8 @@ ul {
   position: relative;
   margin-top: 100px;
   z-index: 1000;
+  max-height: 800px;
+  overflow-y: auto;
 }
 
 .popup-close {
